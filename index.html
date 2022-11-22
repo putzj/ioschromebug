@@ -34,7 +34,7 @@
         <div>
             <div id="dynamic-content">
                 <div style="width: 300px; height: 300px; background: lightblue; color: white; font-size: 2rem; text-align: center">
-                    <a href="//idnes.cz" target="_blank">Content before change</a>
+                    <a href="//www.google.com" target="_blank">Content before change</a>
                 </div>
             </div>
         </div>
@@ -91,7 +91,7 @@
 </div>
 <script>
     function timedPassback() {
-        let content = "<div style='width: 300px; height: 300px; background: olive; color: white; text-align: center; font-size: 2rem'><a href='https://1gr.cz/prilohy/reklama/proklik.html'>Content after change</a></div>"
+        let content = "<div style='width: 300px; height: 300px; background: olive; color: white; text-align: center; font-size: 2rem'><a href='//stackoverflow.com/'>Content after change</a></div>"
         let element = document.getElementById("dynamic-content");
         element.innerHTML = content;
     }
